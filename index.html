@@ -9,27 +9,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="digiworld-doc display-flex">
-        <header class="flex--item">
+    <div class="digiworld-doc display-flex display-flex-sidebar">
+        <div class="side-header flex--item display--small">
             <div class="nav-content">
                 <nav class="spaced-section">
                     <ul class="menu--list">
                         <details-one-open>
                             <li class="menu--item">
                                 <div class="menu--item-title">
-                                    <h3><a href="#introduction" class="link link-dark">Introduction</a></h3>
+                                    <h4><a href="#introduction" class="link link-dark">Introduction</a></h4>
                                 </div>
                             </li>
                         <li class="menu--item">
                             <div class="menu--item-title">
                                 <details details-open-single>
                                     <summary>
-                                        <h3><a href="#theme-settings" class="link link-dark">Theme settings</a></h3>
+                                        <h4><a href="#theme-settings" class="link link-dark">Theme settings</a></h4>
                                     </summary>
                                     <ul class="menu--sub-list">
                                         <li class="menu--subitem">
                                             <div class="menu--subitem-title">
-                                                <p><a href="#theme-colors" class="link link-dark">Color</a></p>
+                                                <h4><a href="#theme-colors" class="link link-dark">Color</a></h4>
                                             </div>
                                         </li>
                                         <li class="menu--subitem">
@@ -44,14 +44,14 @@
                                         </li>
                                     </ul>
                                 </details>
-                                <!-- <h3><a href="#general-settings" class="link link-dark">General Settings</a></h3> -->
+                                <!-- <h4><a href="#general-settings" class="link link-dark">General Settings</a></h4> -->
                             </div>
                         </li>
                         <li class="menu--item">
                             <div class="menu--item-title">
                                 <details details-open-single>
                                     <summary>
-                                        <h3>General settings</h3><i class="fas fa-sort-down"></i>
+                                        <h4>General settings</h4><i class="fas fa-sort-down"></i>
                                     </summary>
                                     <ul class="menu--sub-list">
                                         <li class="menu--subitem">
@@ -71,113 +71,140 @@
                                         </li>
                                     </ul>
                                 </details>
-                                <!-- <h3><a href="#general-settings" class="link link-dark">General Settings</a></h3> -->
+                                <!-- <h4><a href="#general-settings" class="link link-dark">General Settings</a></h4> -->
                             </div>
                         </li>
                         <li class="menu--item">
                             <div class="menu--item-title">
-                                <h3><a href="#" class="link link-dark">Header</a></h3>
+                                <h4><a href="#" class="link link-dark">Header</a></h4>
                             </div>
                         </li>
                         <li class="menu--item">
                             <div class="menu--item-title">
-                                <h3>Collection</h3>
+                                <h4>Collection</h4>
                             </div>
                         </li>
                         <li class="menu--item">
                             <div class="menu--item-title">
-                                <h3>Product</h3>
+                                <h4>Product</h4>
                             </div>
                         </li>
                         <li class="menu--item">
                             <div class="menu--item-title">
-                                <h3>Blogs</h3>
+                                <h4>Blogs</h4>
                             </div>
                         </li>
                         <li class="menu--item">
                             <div class="menu--item-title">
-                                <h3>Other sections</h3>
+                                <h4>Other sections</h4>
                             </div>
                         </li>
                         </details-one-open>
                     </ul>
                 </nav>
             </div>
-        </header>
-        <div class="main-content flex--item spaced-section">
-            <section class="spaced-section" id="introduction">
-                <div class="section-title text-left">
-                    <h2>Introduction</h2>
-                </div>
-                <div class="spaced-section">
-                    <p>We are having </p>
-                </div>
-            </section>
-            <section class="spaced-section" id="theme-settings">
-                <div class="section-title text-left">
-                    <h2>Theme settings</h2>
-                </div>
-                <div class="spaced-section">
-                    <p>The theme contains some common settings which can be customized in theme settings.</p>
-                    <p>Steps to open 'theme settings':</p>
-                    <ul class="doc--list">
-                        <li>
-                            <div class="doc--steps">
-                                <p>Go to Online Store.</p>
-                                <div class="media media--width-large">
-                                    <img src="./Images/shopify_home.png" class="img-contain" alt="" srcset="">
+        </div>
+        <div class="spaced-section flex--item">
+            <div class="main-content">
+                <section class="spaced-section" id="introduction">
+                    <div class="section-title text-left">
+                        <h2>Introduction</h2>
+                    </div>
+                    <div class="spaced-section">
+                        <p>We are having </p>
+                    </div>
+                </section>
+                <section class="spaced-section" id="theme-settings">
+                    <div class="section-title text-left">
+                        <h2>Theme settings</h2>
+                    </div>
+                    <div class="spaced-section">
+                        <p>The theme contains some common settings which can be customized in theme settings.</p>
+                        <p>Steps to open 'theme settings':</p>
+                        <ul class="doc--list">
+                            <li>
+                                <div class="doc--steps">
+                                    <p>Go to Online Store.</p>
+                                    <div class="media media--width-large">
+                                        <img src="./Images/shopify_home.png" class="img-contain" alt="" srcset="">
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="doc--steps">
-                                <p>Click 'Customize'</p>
-                                <div class="media media--width-large">
-                                    <img src="./Images/online_store.png" class="img-contain" alt="" srcset="">
+                            </li>
+                            <li>
+                                <div class="doc--steps">
+                                    <p>Click 'Customize'</p>
+                                    <div class="media media--width-large">
+                                        <img src="./Images/online_store.png" class="img-contain" alt="" srcset="">
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="doc-*steps">
-                                <p>Click 'Theme settings'</p>
-                                <div class="media media--width-large">
-                                    <img src="./Images/customize.png" class="img-contain" alt="" srcset="">
+                            </li>
+                            <li>
+                                <div class="doc--steps">
+                                    <p>Click 'Theme settings'</p>
+                                    <div class="media media--width-large">
+                                        <img src="./Images/customize.png" class="img-contain" alt="" srcset="">
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="doc--steps">
-                                <p>Now we are in theme setings</p>
-                                <div class="media media--width-large">
-                                    <img src="./Images/theme_settings_view.png" class="img-contain" alt="" srcset="">
+                            </li>
+                            <li>
+                                <div class="doc--steps">
+                                    <p>Now we are in theme setings</p>
+                                    <div class="media media--width-large">
+                                        <img src="./Images/theme_settings_view.png" class="img-contain" alt="" srcset="">
+                                    </div>
                                 </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="doc--sub-heading" id="theme-colors">
-                        <h4>Color</h4>
-                        <div class="grid grid--1-col grid--2-col-tab grid--2-col-des">
-                            <div class="doc--text">
-                                <p>We have a primary color scheme and 5 different color schemes. Primary color scheme is the main color scheme for the website. These color schemes are used at different places.</p>
-                            </div>
-                            <div class="media media--small">
-                                <img src="./Images/colors.png" class="img-contain" alt="">
+                            </li>
+                        </ul>
+                        <div class="doc--sub-heading" id="theme-colors">
+                            <div class="display-flex flex-wrap flex--1-col flex--2-col-tab flex--3-col-des">
+                                <div class="doc--settings-bar flex--item">
+                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Color</h4>
+                                    <p>We have a primary color scheme and 5 different color schemes. Primary color scheme is the main color scheme for the website. These color schemes are used at different places. You will get the option to select one of the color scheme.</p>
+                                    <div class="media">
+                                        <img src="./Images/colors.png" class="img-contain img-auto" alt="">
+                                    </div>
+                                </div>
+                                <div class="doc--settings-bar flex--item">
+                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Typography</h4>
+                                    <p>Select a font style for the heading and the text</p>
+                                    <div class="media">
+                                        <img src="./Images/typography.png" class="img-contain img-auto" alt="">
+                                    </div>
+                                </div>
+                                <div class="doc--settings-bar flex--item">
+                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Social Media</h4>
+                                    <p>Enter your social media links. These are used at different places in the website.</p>
+                                    <div class="media">
+                                        <img src="./Images/social_sharing.png" class="img-contain img-auto" alt="">
+                                    </div>
+                                </div>
+                                <div class="doc--settings-bar flex--item">
+                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Favicon</h4>
+                                    <p>Add a favicon image</p>
+                                    <div class="media">
+                                        <img src="./Images/favicon.png" class="img-contain img-auto" alt="">
+                                    </div>
+                                </div>
+                                <div class="doc--settings-bar flex--item">
+                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Product Compare</h4>
+                                    <p>To add product compare option then select first option.</p>
+                                    <p>Different product comparision options are also given below</p>
+                                    <div class="media">
+                                        <img src="./Images/product_compare.png" class="img-contain img-auto" alt="">
+                                    </div>
+                                </div>
+                                <div class="doc--settings-bar flex--item">
+                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Quick View</h4>
+                                    <p>Settings for product quick view button.</p>
+                                    <div class="media">
+                                        <img src="./Images/quick_view.png" class="img-contain img-auto" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="doc--sub-heading" id="theme-typography">
-                        <h4>Typography</h4>
-                        <div class="grid grid--1-col grid--2-col-tab grid--2-col-des">
-                            <div class="doc--text">
-                                <p>We have a primary color scheme and 5 different color schemes. Primary color scheme is the main color scheme for the website. These color schemes are used at different places.</p>
-                            </div>
-                            <div class="media media--small">
-                                <img src="./Images/typography.png" class="img-contain" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </div>
     <script src="digiworld.js"></script>
