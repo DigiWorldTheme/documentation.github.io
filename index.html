@@ -9,202 +9,791 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="digiworld-doc display-flex display-flex-sidebar">
-        <div class="side-header flex--item display--small">
-            <div class="nav-content">
-                <nav class="spaced-section">
-                    <ul class="menu--list">
-                        <details-one-open>
-                            <li class="menu--item">
-                                <div class="menu--item-title">
-                                    <h4><a href="#introduction" class="link link-dark">Introduction</a></h4>
-                                </div>
-                            </li>
-                        <li class="menu--item">
-                            <div class="menu--item-title">
-                                <details details-open-single>
-                                    <summary>
-                                        <h4><a href="#theme-settings" class="link link-dark">Theme settings</a></h4>
-                                    </summary>
-                                    <ul class="menu--sub-list">
-                                        <li class="menu--subitem">
-                                            <div class="menu--subitem-title">
-                                                <h4><a href="#theme-colors" class="link link-dark">Color</a></h4>
+    <header>
+        <div class="doc--header">
+            <div class="digiworld-logo media text-center">
+                <img src="./Images/DigiWorld.png" alt="" class="img-contain img-auto">
+            </div>
+            <div class="doc--menu">
+                <details>
+                    <summary class="doc--menu-icon">
+                        <div class="doc--menu-open"><i class="fas fa-bars"></i></div>
+                        <div class="doc--menu-close"><i class="fas fa-window-close"></i></div>
+                    </summary>
+                    <div class="side-header">
+                        <div class="nav-content">
+                            <nav class="spaced-section">
+                                <ul class="menu--list">
+                                    <details-one-open>
+                                        <li class="menu--item">
+                                            <div class="menu--item-title">
+                                                <h4><a href="#introduction" class="link link-dark" details-click-toggle>Introduction</a></h4>
                                             </div>
                                         </li>
-                                        <li class="menu--subitem">
-                                            <div class="menu--subitem-title">
-                                                <p><a href="#theme-typography" class="link link-dark">General Settings</a></p>
-                                            </div>
-                                        </li>
-                                        <li class="menu--subitem">
-                                            <div class="menu--subitem-title">
-                                                <p><a href="#general-settings" class="link link-dark">General Settings</a></p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </details>
-                                <!-- <h4><a href="#general-settings" class="link link-dark">General Settings</a></h4> -->
-                            </div>
-                        </li>
-                        <li class="menu--item">
-                            <div class="menu--item-title">
-                                <details details-open-single>
-                                    <summary>
-                                        <h4>General settings</h4><i class="fas fa-sort-down"></i>
-                                    </summary>
-                                    <ul class="menu--sub-list">
-                                        <li class="menu--subitem">
-                                            <div class="menu--subitem-title">
-                                                <p><a href="#general-settings" class="link link-dark">General Settings</a></p>
-                                            </div>
-                                        </li>
-                                        <li class="menu--subitem">
-                                            <div class="menu--subitem-title">
-                                                <p><a href="#general-settings" class="link link-dark">General Settings</a></p>
-                                            </div>
-                                        </li>
-                                        <li class="menu--subitem">
-                                            <div class="menu--subitem-title">
-                                                <p><a href="#general-settings" class="link link-dark">General Settings</a></p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </details>
-                                <!-- <h4><a href="#general-settings" class="link link-dark">General Settings</a></h4> -->
-                            </div>
-                        </li>
-                        <li class="menu--item">
-                            <div class="menu--item-title">
-                                <h4><a href="#" class="link link-dark">Header</a></h4>
-                            </div>
-                        </li>
-                        <li class="menu--item">
-                            <div class="menu--item-title">
-                                <h4>Collection</h4>
-                            </div>
-                        </li>
-                        <li class="menu--item">
-                            <div class="menu--item-title">
-                                <h4>Product</h4>
-                            </div>
-                        </li>
-                        <li class="menu--item">
-                            <div class="menu--item-title">
-                                <h4>Blogs</h4>
-                            </div>
-                        </li>
-                        <li class="menu--item">
-                            <div class="menu--item-title">
-                                <h4>Other sections</h4>
-                            </div>
-                        </li>
-                        </details-one-open>
-                    </ul>
-                </nav>
+                                    <li class="menu--item">
+                                        <div class="menu--item-title">
+                                            <details details-open-single>
+                                                <summary>
+                                                    <h4><a href="#theme-settings" class="link link-dark">Theme settings</a></h4>
+                                                </summary>
+                                                <ul class="menu--sub-list">
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <h4><a href="#theme-colors" class="link link-dark" details-click-toggle>Color</a></h4>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <h4><a href="#theme-colors" class="link link-dark" details-click-toggle>Color</a></h4>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <h4><a href="#theme-typography" class="link link-dark" details-click-toggle>Typography</a></h4>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <h4><a href="#theme-social-media" class="link link-dark" details-click-toggle>Social Media</a></h4>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <h4><a href="#theme-favicon" class="link link-dark" details-click-toggle>Favicon</a></h4>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <h4><a href="#theme-product-compare" class="link link-dark" details-click-toggle>Product Compare</a></h4>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <h4><a href="#theme-quick-view" class="link link-dark" details-click-toggle>Quick View</a></h4>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <h4><a href="#theme-product-style" class="link link-dark" details-click-toggle>Product Style</a></h4>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <h4><a href="#theme-product-compare" class="link link-dark" details-click-toggle>Product Compare</a></h4>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <p><a href="#theme-typography" class="link link-dark">General Settings</a></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <p><a href="#general-settings" class="link link-dark">General Settings</a></p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </details>
+                                        </div>
+                                    </li>
+                                    <li class="menu--item">
+                                        <div class="menu--item-title">
+                                            <details details-open-single>
+                                                <summary>
+                                                    <h4>Header</h4><i class="fas fa-sort-down"></i>
+                                                </summary>
+                                                <ul class="menu--sub-list">
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <p><a href="#general-settings" class="link link-dark">General Settings</a></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <p><a href="#general-settings" class="link link-dark">General Settings</a></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="menu--subitem">
+                                                        <div class="menu--subitem-title">
+                                                            <p><a href="#general-settings" class="link link-dark">General Settings</a></p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </details>
+                                            <!-- <h4><a href="#general-settings" class="link link-dark">General Settings</a></h4> -->
+                                        </div>
+                                    </li>
+                                    <li class="menu--item">
+                                        <div class="menu--item-title">
+                                            <h4><a href="#" class="link link-dark">Header</a></h4>
+                                        </div>
+                                    </li>
+                                    <li class="menu--item">
+                                        <div class="menu--item-title">
+                                            <h4>Collection</h4>
+                                        </div>
+                                    </li>
+                                    <li class="menu--item">
+                                        <div class="menu--item-title">
+                                            <h4>Product</h4>
+                                        </div>
+                                    </li>
+                                    <li class="menu--item">
+                                        <div class="menu--item-title">
+                                            <h4>Blogs</h4>
+                                        </div>
+                                    </li>
+                                    <li class="menu--item">
+                                        <div class="menu--item-title">
+                                            <h4>Other sections</h4>
+                                        </div>
+                                    </li>
+                                    </details-one-open>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </details>
             </div>
         </div>
-        <div class="spaced-section flex--item">
-            <div class="main-content">
-                <section class="spaced-section" id="introduction">
-                    <div class="section-title text-left">
-                        <h2>Introduction</h2>
-                    </div>
-                    <div class="spaced-section">
-                        <p>We are having </p>
-                    </div>
-                </section>
-                <section class="spaced-section" id="theme-settings">
-                    <div class="section-title text-left">
-                        <h2>Theme settings</h2>
-                    </div>
-                    <div class="spaced-section">
-                        <p>The theme contains some common settings which can be customized in theme settings.</p>
-                        <p>Steps to open 'theme settings':</p>
-                        <ul class="doc--list">
-                            <li>
-                                <div class="doc--steps">
-                                    <p>Go to Online Store.</p>
-                                    <div class="media media--width-large">
-                                        <img src="./Images/shopify_home.png" class="img-contain" alt="" srcset="">
-                                    </div>
+    </header>
+    <div class="spaced-section flex--item">
+        <div class="main-content">
+            <section class="spaced-section" id="introduction">
+                <div class="section-title text-left">
+                    <h2>Introduction</h2>
+                </div>
+                <div class="spaced-section">
+                    <p>We are having </p>
+                </div>
+            </section>
+            <section class="spaced-section" id="theme-settings">
+                <div class="section-title text-left">
+                    <h2>Theme settings</h2>
+                </div>
+                <div class="spaced-section">
+                    <p>The theme contains some common settings which can be customized in theme settings.</p>
+                    <p>Steps to open 'theme settings':</p>
+                    <ul class="doc--list">
+                        <li>
+                            <div class="doc--steps">
+                                <p>Go to Online Store.</p>
+                                <div class="media media--width-large">
+                                    <img src="./Images/shopify_home.png" class="img-contain" alt="" srcset="">
                                 </div>
-                            </li>
-                            <li>
-                                <div class="doc--steps">
-                                    <p>Click 'Customize'</p>
-                                    <div class="media media--width-large">
-                                        <img src="./Images/online_store.png" class="img-contain" alt="" srcset="">
-                                    </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="doc--steps">
+                                <p>Click 'Customize'</p>
+                                <div class="media media--width-large">
+                                    <img src="./Images/online_store.png" class="img-contain" alt="" srcset="">
                                 </div>
-                            </li>
-                            <li>
-                                <div class="doc--steps">
-                                    <p>Click 'Theme settings'</p>
-                                    <div class="media media--width-large">
-                                        <img src="./Images/customize.png" class="img-contain" alt="" srcset="">
-                                    </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="doc--steps">
+                                <p>Click 'Theme settings'</p>
+                                <div class="media media--width-large">
+                                    <img src="./Images/customize.png" class="img-contain" alt="" srcset="">
                                 </div>
-                            </li>
-                            <li>
-                                <div class="doc--steps">
-                                    <p>Now we are in theme setings</p>
-                                    <div class="media media--width-large">
-                                        <img src="./Images/theme_settings_view.png" class="img-contain" alt="" srcset="">
-                                    </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="doc--steps">
+                                <p>Now we are in theme setings</p>
+                                <div class="media media--width-large">
+                                    <img src="./Images/theme_settings_view.png" class="img-contain" alt="" srcset="">
                                 </div>
-                            </li>
-                        </ul>
-                        <div class="doc--sub-heading" id="theme-colors">
-                            <div class="display-flex flex-wrap flex--1-col flex--2-col-tab flex--3-col-des">
-                                <div class="doc--settings-bar flex--item">
-                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Color</h4>
-                                    <p>We have a primary color scheme and 5 different color schemes. Primary color scheme is the main color scheme for the website. These color schemes are used at different places. You will get the option to select one of the color scheme.</p>
-                                    <div class="media">
-                                        <img src="./Images/colors.png" class="img-contain img-auto" alt="">
-                                    </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="doc--sub-heading">
+                        <div class="display-flex flex-wrap flex--1-col flex--2-col-tab flex--3-col-des">
+                            <div class="doc--settings-bar flex--item" id="theme-colors">
+                                <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Color</h4>
+                                <p>We have a primary color scheme and 5 different color schemes. Primary color scheme is the main color scheme for the website. These color schemes are used at different places. You will get the option to select one of the color scheme.</p>
+                                <div class="media">
+                                    <img src="./Images/colors.png" class="img-contain img-auto" alt="">
                                 </div>
-                                <div class="doc--settings-bar flex--item">
-                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Typography</h4>
-                                    <p>Select a font style for the heading and the text</p>
-                                    <div class="media">
-                                        <img src="./Images/typography.png" class="img-contain img-auto" alt="">
-                                    </div>
+                            </div>
+                            <div class="doc--settings-bar flex--item" id="theme-typography">
+                                <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Typography</h4>
+                                <p>Select a font style for the heading and the text</p>
+                                <div class="media">
+                                    <img src="./Images/typography.png" class="img-contain img-auto" alt="">
                                 </div>
-                                <div class="doc--settings-bar flex--item">
-                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Social Media</h4>
-                                    <p>Enter your social media links. These are used at different places in the website.</p>
-                                    <div class="media">
-                                        <img src="./Images/social_sharing.png" class="img-contain img-auto" alt="">
-                                    </div>
+                            </div>
+                            <div class="doc--settings-bar flex--item" id="theme-social-media">
+                                <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Social Media</h4>
+                                <p>Enter your social media links. These are used at different places in the website.</p>
+                                <div class="media">
+                                    <img src="./Images/social_sharing.png" class="img-contain img-auto" alt="">
                                 </div>
-                                <div class="doc--settings-bar flex--item">
-                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Favicon</h4>
-                                    <p>Add a favicon image</p>
-                                    <div class="media">
-                                        <img src="./Images/favicon.png" class="img-contain img-auto" alt="">
-                                    </div>
+                            </div>
+                            <div class="doc--settings-bar flex--item" id="theme-favicon">
+                                <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Favicon</h4>
+                                <p>Add a favicon image</p>
+                                <div class="media">
+                                    <img src="./Images/favicon.png" class="img-contain img-auto" alt="">
                                 </div>
-                                <div class="doc--settings-bar flex--item">
-                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Product Compare</h4>
-                                    <p>To add product compare option then select first option.</p>
-                                    <p>Different product comparision options are also given below</p>
-                                    <div class="media">
-                                        <img src="./Images/product_compare.png" class="img-contain img-auto" alt="">
-                                    </div>
+                            </div>
+                            <div class="doc--settings-bar flex--item" id="theme-product-compare">
+                                <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Product Compare</h4>
+                                <p>To add product compare option then select first option.</p>
+                                <p>Different product comparision options are also given below</p>
+                                <div class="media">
+                                    <img src="./Images/product_compare.png" class="img-contain img-auto" alt="">
                                 </div>
-                                <div class="doc--settings-bar flex--item">
-                                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Quick View</h4>
-                                    <p>Settings for product quick view button.</p>
-                                    <div class="media">
-                                        <img src="./Images/quick_view.png" class="img-contain img-auto" alt="">
+                            </div>
+                            <div class="doc--settings-bar flex--item" id="theme-quick-view">
+                                <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Quick View</h4>
+                                <p>Settings for product quick view button.</p>
+                                <div class="media">
+                                    <img src="./Images/quick_view.png" class="img-contain img-auto" alt="">
+                                </div>
+                            </div>
+                            <div class="doc--settings-bar flex--item-100" id="theme-product-style">
+                                <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Product Style</h4>
+                                <div class="doc--settings-bar display-flex flex-wrap flex--3-1-col-tab">
+                                    <div class="flex--item doc--settings-details">
+                                        <p>In this you have the settings for the color scheme of product sales staus and to show product is new or upcoming on a product card.</p>
+                                        <p>Now we will see each settings one by one.</p>
+                                        <div class="settings--deep-info">
+                                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Price Color</h4>
+                                            <ul>
+                                                <li>
+                                                    <p><strong>Normal price color:</strong> Color for the orginal price of the product.</p>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Price compare color:</strong> Color for the compare price of the product.</p>
+                                                </li>
+                                            </ul>
+                                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Sales badge</h4>
+                                            <ul>
+                                                <li>
+                                                    <p><strong>Product sale or off badge:</strong> You have 3 options in this. 'Sales' option will show the sales tag. '
+                                                        Percentage off' this will show the how much Percentage off on a product. 'None' no badge. These are shown below in the images.</p>
+                                                        <div class="display-flex flex--3-col-tab">
+                                                            <div class="flex--item">
+                                                                <strong>Slaes</strong>
+                                                                <div class="media">
+                                                                    <img src="./Images/sales_badge.png" alt="" class="img-contain">
+                                                                </div>
+                                                            </div>
+                                                            <div class="flex--item">
+                                                                <strong>Percentage off</strong>
+                                                                <div class="media">
+                                                                    <img src="./Images/percentage_off.png" alt="" class="img-contain">
+                                                                </div>
+                                                            </div>
+                                                            <div class="flex--item">
+                                                                <strong>None</strong>
+                                                                <div class="media">
+                                                                    <img src="./Images/none_badge.png" alt="" class="img-contain">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Position:</strong> You have 4 different positions from which you can select the position of the sales badge.</p>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Sale badge color:</strong> Text color of the badge.</p>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Badge background color:</strong> Background color of the badge.</p>
+                                                </li>
+                                            </ul>
+                                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Product Staus</h4>
+                                            <ul>
+                                                <li>
+                                                    <p><strong>Position:</strong> You have 4 different positions from which you can select the position of the sales badge.</p>
+                                                </li>
+                                                <li>
+                                                    <p><strong>New product badge:</strong> Select if you want to show the product status.</p>
+                                                </li>
+                                                <li>
+                                                    <p><strong>New product badge color:</strong> Text color of the badge.</p>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Badge background color:</strong> Background color of the badge.</p>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Upcoming badge:</strong> Select if you want to show product upcoming badge. If a product is out of stock then this badge will be visible.</p>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Upcoming badge text:</strong> Text for the coming soon badge.</p>
+                                                </li>
+                                                <li>
+                                                    <p><strong>Badge background color:</strong> Badge background color. Text color will remain same as that of new badge color</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="flex--item doc--settings-image">
+                                        <div class="media">
+                                            <img src="./Images/product_style.png" class="img-contain img-auto" alt="">
+                                        </div>
+                                        <div class="media spaced-section">
+                                            <img src="./Images/product_style_2.png" class="img-contain img-auto" alt="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
+            </section>
+            <section class="spaced-section" id="main-header">
+                <div class="section-title">
+                    <h2>Header elements</h2>
+                </div>
+                <p>You have 4 different sections to design your header.</p>
+                <div class="spaced-section">
+                    <h3 class="underline-text" id="announcement-bar">Announcement bar</h3>
+                    <p>You have blocks in this section.</p>
+                    <div class="spaced-section display-flex flex--1-col flex--3-1-col-tab flex--3-1-col-des">
+                        <div class="flex--item">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Block settings</h4>
+                            <ul>
+                                <li>
+                                    <p><strong>Text area:</strong> Write the text here. You can also give links to particular word in the text.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Link:</strong> Add link to the complete bar.</p>
+                                    <p class="note">Give only one type of link to the bar that is either link to complete bar or link to words only.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Auto scroll text:</strong> Scroll the text automatically. <a href="">Check here</a></p>
+                                    <p class="note">You should use it when the text length is more then the screen size.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Screen display:</strong><a href=""> Described above</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex--item">
+                            <div class="media">
+                                <img src="./Images/announcement_bar.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="doc--sub-heading">
+                    </div>
+                </div>
+                <div class="spaced-section">
+                    <h3 class="underline-text" id="extra-details-bar">Extra details bar</h3>
+                    <div class="spaced-section display-flex flex--1-col flex--3-1-col-tab flex--3-1-col-des">
+                        <div class="flex--item">
+                            <p>Few settings availabel in this are:</p>
+                            <ul>
+                                <li>
+                                    <p><strong>Alignment of single block:</strong> If there is only a single block in this section then you can decide it's location as show below.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Color scheme:</strong><a href=""> Described above</a></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex--item">
+                            <div class="media">
+                                <img src="./Images/extra_details.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <p>There are 4 different blocks available in this section. You can select max 3 blocks.</p>
+                    <div class="display-flex flex-wrap flex--1-col flex--2-col-tab flex--4-col-des">
+                        <div class="doc--settings-bar flex--item">
+                            <h4 class="underline-text"><i class="fas fa-sort-down bullet-point-arrow"></i>Contact box</h4>
+                            <p>You have options to select icon and the text algon with it.</p>
+                            <div class="media">
+                                <img src="./Images/contact_box.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                        <div class="doc--settings-bar flex--item">
+                            <h4 class="underline-text"><i class="fas fa-sort-down bullet-point-arrow"></i>Text box</h4>
+                            <p>You can write the text and select it's alignment.</p>
+                            <div class="media">
+                                <img src="./Images/contact_box.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                        <div class="doc--settings-bar flex--item">
+                            <h4 class="underline-text"><i class="fas fa-sort-down bullet-point-arrow"></i>Currency and language</h4>
+                            <div class="media">
+                                <img src="./Images/curr_lang.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                        <div class="doc--settings-bar flex--item">
+                            <h4 class="underline-text"><i class="fas fa-sort-down bullet-point-arrow"></i>Share options</h4>
+                            <p>Social media links provides in the theme settings will be taken in this.</p>
+                            <div class="media">
+                                <img src="./Images/share_options.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <p>Different styles are shown below:</p>
+                </div>
+            </section>
+            <section class="spaced-section" id="image-with-text">
+                <div class="section-title text-left">
+                    <h2>Image with text</h2>
+                </div>
+                <div class="spaced-section">
+                    <div class="display-flex .flex-1-col flex--2-1-col-tab">
+                        <div class="flex--item">
+                            <p>In this section you have image and a text block.</p>
+                            <p>Sample view is shown below.</p>
+                            <div class="media">
+                                <img src="./Images/img_with_text_sample.png" alt="" class="img-contain img-auto">
+                            </div>
+                            <p>Settings for this section are described below.</p>
+                        </div>
+                        <div class="flex--item">
+                            <div class="media">
+                                <img src="./Images/img_with_text.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Section settings</h4>
+                    <div class="display-flex flex--1-col flex--2-1-col-tab flex--3-1-col-des">
+                        <div class="flex--item">
+                            <ul>
+                                <li>
+                                    <p><strong>Image:</strong> Select image that is to be shown.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Image ratio:</strong> Select height of the image from the available options.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Add image animation:</strong> If you want to add an animation in the image then select it. To check the animation <a href="" class="link">click here</a></p>
+                                </li>
+                                <li>
+                                    <p><strong>Color scheme:</strong> Select a color scheme from the given options.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Desktop layout:</strong> In this you can decide to keep image first or the text box first.</p>
+                                </li>
+                                <li>
+                                    <p>You can put animations on the Image block and text block. This is a scroll animation.</p>
+                                    <p>You can select selct different animations from the list.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Screen display:</strong> You can decide the visibilty of the section. It have 3 options 'Only view on desktop', 'Only view on mobile' and 'View on both'.</p>
+                                    <p><strong>'Only view on desktop'</strong> section is visible only for large screen.</p>
+                                    <p><strong>'Only view on mobile'</strong> section is visible only for small screen.</p>
+                                    <p><strong>'View on both'</strong> section is visible on both type of screen.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex--item">
+                            <div class="media">
+                                <img src="./Images/img_with_text_section.png" alt="" class="img-contain img-auto">
+                            </div>
+                            <div class="media">
+                                <img src="./Images/img_with_text_section_2.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Blocks</h4>
+                    <div class="display-flex flex--1-col flex--3-col-tab">
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Heading</h4>
+                            <div class="media">
+                                <img src="./Images/img_with_text_heading.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Text</h4>
+                            <div class="media">
+                                <img src="./Images/img_with_text_text.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Button</h4>
+                            <div class="media">
+                                <img src="./Images/img_with_text_button.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="spaced-section" id="double-image-with-text">
+                <div class="section-title text-left">
+                    <h2>Double image with text</h2>
+                </div>
+                <div class="spaced-section">
+                    <div class="display-flex .flex-1-col flex--1-col-tab">
+                        <div class="flex--item">
+                            <p>In this section you have 2 images and a text block.</p>
+                            <p>Sample view is shown below.</p>
+                            <div class="media">
+                                <img src="./Images/double_img_with_text_images.png" alt="" class="img-contain img-auto">
+                            </div>
+                            <p>Settings for this section are described below.</p>
+                        </div>
+                    </div>
+                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Section settings</h4>
+                    <div class="display-flex flex--1-col flex--2-1-col-tab">
+                        <div class="flex--item">
+                            <ul>
+                                <li>
+                                    <p><strong>Image 1:</strong> Select image 1.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Image 2:</strong> Select image 2.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Height:</strong> Select height of the image from the available options.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Desktop layout:</strong> In this you can decide to keep image first or the text box first.</p>
+                                </li>
+                                <li>
+                                    <p><strong>image/text ratio:</strong> Image area vs text box area.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Color scheme:</strong> Select a color scheme from the given options.</p>
+                                </li>
+                                <li>
+                                    <p>You can put animations on the both images and text block. This is a scroll animation.</p>
+                                    <p>You can select selct different animations from the list.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Screen display:</strong> You can decide the visibilty of the section. It have 3 options 'Only view on desktop', 'Only view on mobile' and 'View on both'.</p>
+                                    <p><strong>'Only view on desktop'</strong> section is visible only for large screen.</p>
+                                    <p><strong>'Only view on mobile'</strong> section is visible only for small screen.</p>
+                                    <p><strong>'View on both'</strong> section is visible on both type of screen.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex--item">
+                            <div class="media">
+                                <img src="./Images/double_img_with_text_section.png" alt="" class="img-contain img-auto">
+                            </div>
+                            <div class="media">
+                                <img src="./Images/double_img_with_text_section_2.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Blocks</h4>
+                    <div class="display-flex flex--1-col flex--3-col-tab">
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Heading</h4>
+                            <div class="media">
+                                <img src="./Images/double_img_with_text_heading.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Text</h4>
+                            <div class="media">
+                                <img src="./Images/double_img_with_text_text.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Button</h4>
+                            <div class="media">
+                                <img src="./Images/double_img_with_text_button.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="spaced-section" id="image-with-text-blocks">
+                <div class="section-title text-left">
+                    <h2>Image with text blocks</h2>
+                </div>
+                <div class="spaced-section">
+                    <div class="display-flex .flex-1-col flex--1-col-tab">
+                        <div class="flex--item">
+                            <p>In this section you have a image and text blocks.</p>
+                            <p>Some of the samples are shown below.</p>
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_sample_1.png" alt="" class="img-contain img-auto">
+                            </div>
+                            <p>Settings for this section are described below.</p>
+                        </div>
+                    </div>
+                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Section settings</h4>
+                    <div class="display-flex flex--1-col flex--2-1-col-tab">
+                        <div class="flex--item">
+                            <ul>
+                                <li>
+                                    <p><strong>Image:</strong> Select image</p>
+                                </li>
+                                <li>
+                                    <p><strong>Image ratio:</strong> Select height of the image from the available options.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Desktop layout:</strong> In this you can decide to keep image first or the text box first.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Heading:</strong> Heading of the section.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Number of columns:</strong> In this section blocks will be added so if you want to put blocks in a single row then select 1 and if you want to show them in 2 columns then select 2. Samples are shown below:</p>
+                                    <div class="display-flex flex--1-col flex--2-col-tab">
+                                        <div class="flex--item media">
+                                            <p>1</p>
+                                            <img src="./Images/img_with_text_blocks_column_1.png" alt="" class="img-contain img-auto">
+                                        </div>
+                                        <div class="flex--item media">
+                                            <p>2</p>
+                                            <img src="" alt="" class="img-contain">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p><strong>Image text ratio:</strong> Image area vs text box area.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Color scheme:</strong> Select a color scheme from the given options.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Screen display:</strong> You can decide the visibilty of the section. It have 3 options 'Only view on desktop', 'Only view on mobile' and 'View on both'.</p>
+                                    <p><strong>'Only view on desktop'</strong> section is visible only for large screen.</p>
+                                    <p><strong>'Only view on mobile'</strong> section is visible only for small screen.</p>
+                                    <p><strong>'View on both'</strong> section is visible on both type of screen.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex--item">
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_section.png" alt="" class="img-contain img-auto">
+                            </div>
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_section_2.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Blocks</h4>
+                    <p>We have 3 different blocks in this section.</p>
+                    <p>Many different ways to design this section is shown above.</p>
+                    <div class="display-flex flex--1-col flex--3-col-tab">
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Text block</h4>
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_text_block.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Address</h4>
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_address.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Social networks</h4>
+                            <p>First input is of heading and in rest you can select yor icon and then the link for that social media platform.</p>
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_social_networks.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="spaced-section" id="image-3d-text">
+                <div class="section-title text-left">
+                    <h2>Image 3D with text</h2>
+                </div>
+                <div class="spaced-section">
+                    <div class="display-flex .flex-1-col flex--1-col-tab">
+                        <div class="flex--item">
+                            <p>In this section you have a image and text blocks.</p>
+                            <p>Some of the samples are shown below.</p>
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_sample_1.png" alt="" class="img-contain img-auto">
+                            </div>
+                            <p>Settings for this section are described below.</p>
+                        </div>
+                    </div>
+                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Section settings</h4>
+                    <div class="display-flex flex--1-col flex--2-1-col-tab">
+                        <div class="flex--item">
+                            <ul>
+                                <li>
+                                    <p><strong>Image:</strong> Select image</p>
+                                </li>
+                                <li>
+                                    <p><strong>Image ratio:</strong> Select height of the image from the available options.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Desktop layout:</strong> In this you can decide to keep image first or the text box first.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Heading:</strong> Heading of the section.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Number of columns:</strong> In this section blocks will be added so if you want to put blocks in a single row then select 1 and if you want to show them in 2 columns then select 2. Samples are shown below:</p>
+                                    <div class="display-flex flex--1-col flex--2-col-tab">
+                                        <div class="flex--item media">
+                                            <p>1</p>
+                                            <img src="./Images/img_with_text_blocks_column_1.png" alt="" class="img-contain img-auto">
+                                        </div>
+                                        <div class="flex--item media">
+                                            <p>2</p>
+                                            <img src="" alt="" class="img-contain">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p><strong>Image text ratio:</strong> Image area vs text box area.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Color scheme:</strong> Select a color scheme from the given options.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Screen display:</strong> You can decide the visibilty of the section. It have 3 options 'Only view on desktop', 'Only view on mobile' and 'View on both'.</p>
+                                    <p><strong>'Only view on desktop'</strong> section is visible only for large screen.</p>
+                                    <p><strong>'Only view on mobile'</strong> section is visible only for small screen.</p>
+                                    <p><strong>'View on both'</strong> section is visible on both type of screen.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex--item">
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_section.png" alt="" class="img-contain img-auto">
+                            </div>
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_section_2.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Blocks</h4>
+                    <p>We have 3 different blocks in this section.</p>
+                    <p>Many different ways to design this section is shown above.</p>
+                    <div class="display-flex flex--1-col flex--3-col-tab">
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Text block</h4>
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_text_block.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Address</h4>
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_address.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                        <div class="flex--item doc--settings-bar">
+                            <h4 class="underline-text sub-title"><i class="fas fa-sort-down bullet-point-arrow"></i>Social networks</h4>
+                            <p>First input is of heading and in rest you can select yor icon and then the link for that social media platform.</p>
+                            <div class="media">
+                                <img src="./Images/img_with_text_blocks_social_networks.png" alt="" class="img-contain img-auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="spaced-section" id="double-image-with-text">
+
+            </section>
+            <section class="spaced-section" id="image-3d-with-text">
+
+            </section>
+            <section class="spaced-section" id="image-with-text-blocks">
+
+            </section>
         </div>
     </div>
     <script src="digiworld.js"></script>
