@@ -388,6 +388,14 @@ p {
 .text-right {
     text-align: right;
 }
+
+
+/* Margins */
+.margin-bottom-2 {
+    margin-bottom: 2rem;
+}
+
+
 .doc--settings-bar {
     
     margin-bottom: 1rem;
