@@ -388,6 +388,12 @@ p {
 .text-right {
     text-align: right;
 }
+.font-w-500 {
+    font-weight: 500;
+}
+.font-w-600 {
+    font-weight: 600;
+}
 
 
 /* Margins */
@@ -520,5 +526,33 @@ summary {
     .main-content {
         padding-left: 5rem;
         padding-right: 5rem;
+    }
+}
+
+.other-links {    
+    justify-content: center;
+    background: rgba(0,0,0,0.3);
+    padding: 1rem 5rem;
+}
+.other-links .button {
+    padding: 0.5rem 1.5rem;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border-radius: 0.3rem;
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+}
+.other-links .button h4 {
+    color: rgb(var(--color-link-2));
+}
+@media screen and (max-width:750px) {
+    
+    .other-links {
+        padding: 1rem 1rem;
+    }
+    .other-links .button {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem 0rem;
+        font-size: 1.5rem;
     }
 }
